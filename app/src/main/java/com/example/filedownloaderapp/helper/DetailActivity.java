@@ -105,7 +105,7 @@ public class DetailActivity extends AppCompatActivity {
 
     }
 
-    //refresh gallery with new image
+    //refresh gallery with new images
     public void refreshGallery(File file) {
         Intent intent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
         intent.setData(Uri.fromFile(file));
